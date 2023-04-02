@@ -134,4 +134,4 @@ for ind, row in towns.iterrows():  # towns.iterrows() returns the index and row
 scale_bar(ax)
 
 # save the figure as map.png, cropped to the axis (bbox_inches='tight'), and a dpi of 300
-myFig.savefig('map.png', bbox_inches='tight', dpi=300)
+myFig.savefig('map2.png', bbox_inches='tight', dpi=300)
