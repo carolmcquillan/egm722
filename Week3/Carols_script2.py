@@ -52,7 +52,7 @@ fig, ax = plt.subplots(1, 1, figsize=(10, 10), subplot_kw=dict(projection=myCRS)
 
 # add gridlines below
 gridlines = ax.gridlines(draw_labels=True,
-                         xlocs=[-8, -s7.5, -7, -6.5, -6, -5.5],
+                         xlocs=[-8, 7.5, -7, -6.5, -6, -5.5],
                          ylocs=[54, 54.5, 55, 55.5],
                          linewidth = 0.5, color = 'gray', alpha = 0.5, linestyle='--')
 

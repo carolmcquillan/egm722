@@ -66,6 +66,6 @@ county_handles = [mpatches.Rectangle((0, 0), 1, 1, facecolor='none', edgecolor='
 ax.legend(county_handles, ['County Boundaries'], fontsize=12, loc='upper left', framealpha=1)
 
 # save the figure
-fig.savefig('sample_map.png', dpi=300, bbox_inches='tight')
+fig.savefig('sample_map22.png', dpi=300, bbox_inches='tight')
 
 
